@@ -11,13 +11,13 @@ document.getElementById('para').style.color='brown'
 document.getElementById('fru').style.textTransform='Uppercase'
 document.getElementById('veg').style.textTransform='Uppercase'
 
-let newFruit = document.createElement("li");
-newFruit.innerHtml= "Grapes"
-document.getElementById("fruList").appendChild("newFruit");
+let newFruit = document.createElement("li")
+newFruit.innerHTML= "Grapes"
+document.getElementById("fruList").appendChild(newFruit);
 
-let newVeg = document.createElement("li");
-newVeg.innerHtml= "Spinach"
-document.getElementById("vegList").appendChild("newVeg");
+let newVeg = document.createElement("li")
+newVeg.innerHTML= "Spinach"
+document.getElementById("vegList").appendChild(newVeg);
 
 
 
